@@ -21,49 +21,6 @@
     padding: 3px;
     margin: 5px; 
 } */
-h1 {
-    margin: 25px 10px 10px 15px;    
-    padding: 25px 10px 15px 10px;
-}
-label{
-    margin: 25px;    
-    padding: 25px;
-    font-size: 30px;
-}
-#menu{
-    background-color: #0c645be7;
-    /* display: block; */
-    align-items: center; 
-    /* max-width: 90%; */
-}
-#menu nav ul{
-    /* display: flex; */
-    list-style-type: none;
-    overflow: hidden;
-    /*  padding: 0;
-    margin: 0; */
-    padding-right: 0.5%; 
-    margin-left: 300px ;
-    
-}
-#menu nav ul li{
-    float: left;
-    margin-right:20px;
-    
-
-}
-#menu nav ul li a{
-    display: flex;
-    color: #FDFEFF;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-} 
-#menu nav ul li a:hover{
-    background-color:#060606 ;
-}
 /* aqui comiensa el logo de objetivo  */
 .objetivo{
     /* display: block; */
@@ -79,11 +36,16 @@ label{
     margin-top: 15px;
     margin-bottom: -2rem;
     padding-bottom: 0;
+    padding-left: 50px;
     border-radius: 50%;
 }
 .objetivo #logo h2 {
     margin: 1em;
     padding: 1.5px;
+    text-align: center;
+}
+.objetivo #logo .siste{
+    color: rgba(11, 75, 21, 0.842);
 }
 
 .objetivo .obj2 p {
